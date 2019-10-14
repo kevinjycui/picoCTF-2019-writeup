@@ -16,7 +16,7 @@ Listen to the music
 If the music is a guitar                  
 Say "Keep on rocking!" 
 ```
-Here we see the initialization of some variables. The word `is` is used for assignment. We understand that in Rockstar, integers are reqpresented by words. The lengths of each word is a digit. So `a six-string` is `136`, as 'a' has 1 character, 'six' has 3 characters, and so on. Words with 10 characters count as 0s. `Listen` means input, and `if` is just if. So, effectively, this segment of code in C++ would be:
+Here we see the initialization of some variables. The word `is` is used for assignment. We understand that in Rockstar, integers are represented by words. The lengths of each word is a digit. So `a six-string` is `136`, as 'a' has 1 character, 'six' has 3 characters, and so on. Words with 10 characters count as 0s. `Listen` means input, and `if` is just if. So, effectively, this segment of code in C++ would be:
 ```
 boolean rocknroll = true;
 boolean silence = false;
