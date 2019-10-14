@@ -12,6 +12,6 @@ After connecting to this port, we are given a sequence of dots and dashes as so:
 ```
 .--. .. -.-. --- -.-. - ..-. { -- ----- .-. ... ...-- -.-. ----- -.. ...-- .---- ... ..-. ..- -. ----. ----- ...-- .---- ....- ----- ....- ....- ---.. } 
 ```
-This allows us to deduce that the method of encryption is one of the most well-known types of cryptography: morse code. If you are proficient with morse, feel free to crack it yourself. Otherwise, an online tool such as [unit-conversion.info](http://www.unit-conversion.info/texttools/morse-code/) will do.
+This allows us to deduce that the method of encryption is one of the most well-known codes: morse code. If you are proficient with morse, feel free to crack it yourself. Otherwise, an online tool such as [unit-conversion.info](http://www.unit-conversion.info/texttools/morse-code/) will do.
 ## Flag
 `PICOCTF{M0RS3C0D31SFUN903140448}`

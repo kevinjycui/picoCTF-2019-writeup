@@ -12,6 +12,6 @@ Similarily to m00nwalk, we use QSSTV or another SSTV decoding software to extrac
 * [clue 2](clue2.png)
 * [clue 3](clue3.png)
 
-Now for the second part of the challenge: figuring out the flag. We require some cryptography. The clues direct us to [Alan Eliasen's Future Boy website](https://www.futureboy.us) with a password hidden_stegosaurus. We go to this site and open the stegonographic decoder, with the password key being the one given to us. After uploading our message.wav file, the hidden flag is revealed.
+Now for the second part of the challenge: figuring out the flag. We require some foresnics. The clues direct us to [Alan Eliasen's Future Boy website](https://www.futureboy.us) with a password hidden_stegosaurus. We go to this site and open the steganographic decoder, with the password key being the one given to us. After uploading our message.wav file, the hidden flag is revealed.
 ## Flag
 `picoCTF{the_answer_lies_hidden_in_plain_sight}`
