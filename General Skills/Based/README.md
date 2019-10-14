@@ -1,4 +1,4 @@
-# Bases
+# Based
 Points: 200
 ## Category
 General Skills
