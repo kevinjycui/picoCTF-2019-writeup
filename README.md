@@ -36,7 +36,7 @@ Placed 29th Canadian High School Student Team, 464th Globally
 | [extensions](/Forensics/extensions/README.md)|
 | [Glory of the Garden](/Forensics/Glory%20of%20the%20Garden/README.md)|
 | [m00nwalk](/Forensics/m00nwalk/README.md)|
-| [m00nwalk](/Forensics/m00nwalk2/README.md)|
+| [m00nwalk2](/Forensics/m00nwalk2/README.md)|
 | [Mr-Worldwide](/Forensics/Mr-Worldwide/README.md)|
 | [shark on wire 1](/Forensics/shark%20on%20wire%201/README.md)|
 | [shark on wire 2](/Forensics/shark%20on%20wire%202/README.md)|
@@ -70,10 +70,10 @@ Placed 29th Canadian High School Student Team, 464th Globally
 | [vault-door-1](/Reverse%20Engineering/vault-door-1/README.md)|
 | [vault-door-3](/Reverse%20Engineering/vault-door-3/README.md)|
 | [vault-door-4](/Reverse%20Engineering/vault-door-4/README.md)|
-| [vault-door-5](/Reverse%20Engineering/vault-door-4/README.md)|
-| [vault-door-6](/Reverse%20Engineering/vault-door-4/README.md)|
-| [vault-door-7](/Reverse%20Engineering/vault-door-4/README.md)|
-| [vault-door-8](/Reverse%20Engineering/vault-door-4/README.md)|
+| [vault-door-5](/Reverse%20Engineering/vault-door-5/README.md)|
+| [vault-door-6](/Reverse%20Engineering/vault-door-6/README.md)|
+| [vault-door-7](/Reverse%20Engineering/vault-door-7/README.md)|
+| [vault-door-8](/Reverse%20Engineering/vault-door-8/README.md)|
 | [vault-door-training](/Reverse%20Engineering/vault-door-4/README.md)|
 
 | Web Exploitation  |
@@ -85,7 +85,7 @@ Placed 29th Canadian High School Student Team, 464th Globally
 | [Irish-Name-Repo 1](/Web%20Exploitation/Irish-Name-Repo%201/README.md)|
 | [Irish-Name-Repo 2](/Web%20Exploitation/Irish-Name-Repo%202/README.md)|
 | [Irish-Name-Repo 3](/Web%20Exploitation/Irish-Name-Repo%203/README.md)|
-| [JaWt Scratchpad](/Web%20Exploitation/JaWt%20Scratchpad/README.md)|
+| [JaWT Scratchpad](/Web%20Exploitation/JaWT%20Scratchpad/README.md)|
 | [logon](/Web%20Exploitation/logon/README.md)|
 | [Open-to-admins](/Web%20Exploitation/Open-to-admins/README.md)|
 | [picobrowser](/Web%20Exploitation/picobrowser/README.md)|

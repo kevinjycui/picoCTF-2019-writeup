@@ -42,6 +42,6 @@ if (rhythm - music == 0) {
     ...
 }
 ```
-Since we initialized mmusic to 1970 earlier, that is our input. After inputting that, we get our output. Convert it into ASCII and we get our flag.
+Since we initialized music to 1970 earlier, that is our input. After inputting that, we get our output. Convert it into ASCII and we get our flag.
 ## Flag
 `picoCTF{BONJOVI}`
