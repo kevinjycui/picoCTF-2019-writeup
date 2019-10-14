@@ -23,4 +23,4 @@ Alexandria, Egypt
 ```
 When we take the first character from each of these cities, we get another city: KODIAK_ALASKA, which is our flag.
 ## Flag
-`PICOCTF{KODIAK_ALASKA}`
+`picoCTF{KODIAK_ALASKA}`
