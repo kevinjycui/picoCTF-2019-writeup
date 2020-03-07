@@ -8,7 +8,7 @@ Reverse Engineering
 > assembly [conditions](https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm)
 ## Solution
 Unlike asm1, there are now two parameters being given which means two positions on the stack are filled. 
-```
+```asm
 	<+0>:	push   ebp
 	<+1>:	mov    ebp,esp
 	<+3>:	sub    esp,0x10
@@ -18,16 +18,16 @@ Unlike asm1, there are now two parameters being given which means two positions 
 	<+15>:	mov    DWORD PTR [ebp-0x8],eax
 ```
 We see that 0x10 is being subtracted from esp. Once again we can ignore most of the initialization from line 0 to 3. When we keep track of which variable is where, we see that two new positions at ebp-0x4 and ebp-0x8 are created and store the values from ebp+0xc and ebp+0x8 using temporary variable esp.
-```
+```asm
 	<+18>:	jmp    0x50c <asm2+31>
 ```
 At this point, we know that ebp-0x4 is storing 0x1e and ebp-0x8 is storing 0x9. We then take an unconditional jump `jmp` to line 31.
-```
+```asm
 	<+31>:	cmp    DWORD PTR [ebp-0x8],0x47a6
 	<+38>:	jle    0x501 <asm2+20>
 ```
 We see here that we are comparing the value stored at ebp-0x8, which is 0x9, to 0x47a6. Since the comparison is less or equal to and the condition is `jle`, we male the jump back up to line 20.
-```
+```asm
     <+20>:	add    DWORD PTR [ebp-0x4],0x1
 	<+24>:	add    DWORD PTR [ebp-0x8],0xa9
 	<+31>:	cmp    DWORD PTR [ebp-0x8],0x47a6

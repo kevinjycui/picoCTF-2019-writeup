@@ -9,7 +9,7 @@ Reverse Engineering
 > You will also need to consult an ASCII table such as this one: https://www.asciitable.com/
 ## Solution
 This file has lots of confusing bitshifting and conversions, but we can look at the comment in the file to better understand what we are dealing with:
-```
+```java
     // Each character can be represented as a byte value using its
     // ASCII encoding. Each byte contains 8 bits, and an int contains
     // 32 bits, so we can "pack" 4 bytes into a single int. Here's an

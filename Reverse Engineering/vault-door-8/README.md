@@ -9,7 +9,7 @@ Reverse Engineering
 > Draw a diagram to illustrate which bits are being switched in the scramble() method, then figure out a sequence of bit switches to undo it. You should be able to reuse the switchBits() method as is.
 ## Solution
 When we open this file, we are greeted with something very different from the other vault-door problems, in that the code has been minified. Simply put it through an online Java beautifier such as [Code Beautify](https://codebeautify.org/javaviewer) and look at the code. The most important part is the bit shifting in the `scramble` function: 
-```
+```java
 public char[] scramble(String password) {
   /* Scramble a password by transposing pairs of bits. */
   char[] a = password.toCharArray();
